@@ -4,6 +4,7 @@ const joi = require('joi')
 const app = express();
 const cors = require("cors");
 const route = require("./src/router/routes");
+const aws = require ('aws-sdk')
 
 app.use(cors());
 app.use(express.json());

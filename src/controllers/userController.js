@@ -1,7 +1,7 @@
 const bcrypt = require('bcrypt');
 const knex = require('../database/db_connection');
 const jwt = require('jsonwebtoken');
-const passwordHash = require('../../src/passwordHash');
+const passwordHash = require('../../passwordHash');
 
 const postUser = async (req, res) => {
   const { nome, email, senha } = req.body;
