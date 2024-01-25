@@ -10,7 +10,7 @@ API com a finalidade de admnistrar um comércio. Esse Projeto foi desenvolvido e
 
 - Realize o Fork do projeto
 - Execute o comando npm install para instalar as dependências
-- Crie o arquivo `.env` na raiz do projeto e configure as variáveis de ambiente e configure as variaveis de acordo com o `.env.example`
+- Crie o arquivo `.env` na raiz do projeto e configure as variáveis de ambiente de acordo com o `.env.example`
 - No caminho `src/database/schema.sql` está a configuração do banco de dados
 
 
